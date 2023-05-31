@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16468E92A260C3100ECC544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468E82A260C3100ECC544 /* AppDelegate.swift */; };
+		E16468EB2A260C3100ECC544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468EA2A260C3100ECC544 /* SceneDelegate.swift */; };
+		E16468ED2A260C3100ECC544 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468EC2A260C3100ECC544 /* OnboardViewController.swift */; };
+		E16468F02A260C3100ECC544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16468EE2A260C3100ECC544 /* Main.storyboard */; };
+		E16468F32A260C3100ECC544 /* Moazzi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16468F12A260C3100ECC544 /* Moazzi.xcdatamodeld */; };
+		E16468F52A260C3200ECC544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16468F42A260C3200ECC544 /* Assets.xcassets */; };
+		E16468F82A260C3200ECC544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16468F62A260C3200ECC544 /* LaunchScreen.storyboard */; };
+		E16469032A260C3200ECC544 /* MoazziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16469022A260C3200ECC544 /* MoazziTests.swift */; };
+		E164690D2A260C3200ECC544 /* MoazziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164690C2A260C3200ECC544 /* MoazziUITests.swift */; };
+		E164690F2A260C3200ECC544 /* MoazziUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164690E2A260C3200ECC544 /* MoazziUITestsLaunchTests.swift */; };
+		E164691C2A26167A00ECC544 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164691B2A26167A00ECC544 /* UIColor.swift */; };
+		E16469232A261D2D00ECC544 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16469222A261D2D00ECC544 /* UIFont.swift */; };
+		E164692E2A26203900ECC544 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469252A26203900ECC544 /* Pretendard-Regular.ttf */; };
+		E164692F2A26203900ECC544 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469252A26203900ECC544 /* Pretendard-Regular.ttf */; };
+		E16469302A26203900ECC544 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469252A26203900ECC544 /* Pretendard-Regular.ttf */; };
+		E16469312A26203900ECC544 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469262A26203900ECC544 /* Pretendard-Medium.ttf */; };
+		E16469322A26203900ECC544 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469262A26203900ECC544 /* Pretendard-Medium.ttf */; };
+		E16469332A26203900ECC544 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469262A26203900ECC544 /* Pretendard-Medium.ttf */; };
+		E16469342A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469272A26203900ECC544 /* Pretendard-ExtraLight.ttf */; };
+		E16469352A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469272A26203900ECC544 /* Pretendard-ExtraLight.ttf */; };
+		E16469362A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469272A26203900ECC544 /* Pretendard-ExtraLight.ttf */; };
+		E16469372A26203900ECC544 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469282A26203900ECC544 /* Pretendard-Black.ttf */; };
+		E16469382A26203900ECC544 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469282A26203900ECC544 /* Pretendard-Black.ttf */; };
+		E16469392A26203900ECC544 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469282A26203900ECC544 /* Pretendard-Black.ttf */; };
+		E164693A2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469292A26203900ECC544 /* Pretendard-SemiBold.ttf */; };
+		E164693B2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469292A26203900ECC544 /* Pretendard-SemiBold.ttf */; };
+		E164693C2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16469292A26203900ECC544 /* Pretendard-SemiBold.ttf */; };
+		E164693D2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692A2A26203900ECC544 /* Pretendard-ExtraBold.ttf */; };
+		E164693E2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692A2A26203900ECC544 /* Pretendard-ExtraBold.ttf */; };
+		E164693F2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692A2A26203900ECC544 /* Pretendard-ExtraBold.ttf */; };
+		E16469402A26203900ECC544 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */; };
+		E16469412A26203900ECC544 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */; };
+		E16469422A26203900ECC544 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */; };
+		E16469432A26203900ECC544 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692C2A26203900ECC544 /* Pretendard-Light.ttf */; };
+		E16469442A26203900ECC544 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692C2A26203900ECC544 /* Pretendard-Light.ttf */; };
+		E16469452A26203900ECC544 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692C2A26203900ECC544 /* Pretendard-Light.ttf */; };
+		E16469462A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
+		E16469472A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
+		E16469482A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
+		E1DE27F82A26D1D900EFEE5A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE27F72A26D1D900EFEE5A /* UIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16468FF2A260C3200ECC544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16468DD2A260C3100ECC544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16468E42A260C3100ECC544;
+			remoteInfo = Moazzi;
+		};
+		E16469092A260C3200ECC544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16468DD2A260C3100ECC544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16468E42A260C3100ECC544;
+			remoteInfo = Moazzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E16468E52A260C3100ECC544 /* Moazzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moazzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16468E82A260C3100ECC544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E16468EA2A260C3100ECC544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E16468EC2A260C3100ECC544 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		E16468EF2A260C3100ECC544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16468F22A260C3100ECC544 /* Moazzi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moazzi.xcdatamodel; sourceTree = "<group>"; };
+		E16468F42A260C3200ECC544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16468F72A260C3200ECC544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16468F92A260C3200ECC544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16468FE2A260C3200ECC544 /* MoazziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoazziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16469022A260C3200ECC544 /* MoazziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoazziTests.swift; sourceTree = "<group>"; };
+		E16469082A260C3200ECC544 /* MoazziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoazziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E164690C2A260C3200ECC544 /* MoazziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoazziUITests.swift; sourceTree = "<group>"; };
+		E164690E2A260C3200ECC544 /* MoazziUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoazziUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E164691B2A26167A00ECC544 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E16469222A261D2D00ECC544 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		E16469252A26203900ECC544 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		E16469262A26203900ECC544 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		E16469272A26203900ECC544 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E16469282A26203900ECC544 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		E16469292A26203900ECC544 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		E164692A2A26203900ECC544 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		E164692C2A26203900ECC544 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		E1DE27F72A26D1D900EFEE5A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16468E22A260C3100ECC544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16468FB2A260C3200ECC544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16469052A260C3200ECC544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16468DC2A260C3100ECC544 = {
+			isa = PBXGroup;
+			children = (
+				E16468E72A260C3100ECC544 /* Moazzi */,
+				E16469012A260C3200ECC544 /* MoazziTests */,
+				E164690B2A260C3200ECC544 /* MoazziUITests */,
+				E16468E62A260C3100ECC544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16468E62A260C3100ECC544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16468E52A260C3100ECC544 /* Moazzi.app */,
+				E16468FE2A260C3200ECC544 /* MoazziTests.xctest */,
+				E16469082A260C3200ECC544 /* MoazziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16468E72A260C3100ECC544 /* Moazzi */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE27F62A26D1D000EFEE5A /* Extension */,
+				E16469242A26200900ECC544 /* Font */,
+				E16468E82A260C3100ECC544 /* AppDelegate.swift */,
+				E16468EA2A260C3100ECC544 /* SceneDelegate.swift */,
+				E16468EC2A260C3100ECC544 /* OnboardViewController.swift */,
+				E16468EE2A260C3100ECC544 /* Main.storyboard */,
+				E16468F42A260C3200ECC544 /* Assets.xcassets */,
+				E16468F62A260C3200ECC544 /* LaunchScreen.storyboard */,
+				E16468F92A260C3200ECC544 /* Info.plist */,
+				E16468F12A260C3100ECC544 /* Moazzi.xcdatamodeld */,
+				E164691B2A26167A00ECC544 /* UIColor.swift */,
+				E16469222A261D2D00ECC544 /* UIFont.swift */,
+			);
+			path = Moazzi;
+			sourceTree = "<group>";
+		};
+		E16469012A260C3200ECC544 /* MoazziTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16469022A260C3200ECC544 /* MoazziTests.swift */,
+			);
+			path = MoazziTests;
+			sourceTree = "<group>";
+		};
+		E164690B2A260C3200ECC544 /* MoazziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E164690C2A260C3200ECC544 /* MoazziUITests.swift */,
+				E164690E2A260C3200ECC544 /* MoazziUITestsLaunchTests.swift */,
+			);
+			path = MoazziUITests;
+			sourceTree = "<group>";
+		};
+		E16469242A26200900ECC544 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E16469492A26203E00ECC544 /* Pretendard */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E16469492A26203E00ECC544 /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				E16469282A26203900ECC544 /* Pretendard-Black.ttf */,
+				E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */,
+				E164692A2A26203900ECC544 /* Pretendard-ExtraBold.ttf */,
+				E16469272A26203900ECC544 /* Pretendard-ExtraLight.ttf */,
+				E164692C2A26203900ECC544 /* Pretendard-Light.ttf */,
+				E16469262A26203900ECC544 /* Pretendard-Medium.ttf */,
+				E16469252A26203900ECC544 /* Pretendard-Regular.ttf */,
+				E16469292A26203900ECC544 /* Pretendard-SemiBold.ttf */,
+				E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
+		E1DE27F62A26D1D000EFEE5A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE27F72A26D1D900EFEE5A /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16468E42A260C3100ECC544 /* Moazzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16469122A260C3200ECC544 /* Build configuration list for PBXNativeTarget "Moazzi" */;
+			buildPhases = (
+				E16468E12A260C3100ECC544 /* Sources */,
+				E16468E22A260C3100ECC544 /* Frameworks */,
+				E16468E32A260C3100ECC544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moazzi;
+			productName = Moazzi;
+			productReference = E16468E52A260C3100ECC544 /* Moazzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16468FD2A260C3200ECC544 /* MoazziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16469152A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziTests" */;
+			buildPhases = (
+				E16468FA2A260C3200ECC544 /* Sources */,
+				E16468FB2A260C3200ECC544 /* Frameworks */,
+				E16468FC2A260C3200ECC544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16469002A260C3200ECC544 /* PBXTargetDependency */,
+			);
+			name = MoazziTests;
+			productName = MoazziTests;
+			productReference = E16468FE2A260C3200ECC544 /* MoazziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16469072A260C3200ECC544 /* MoazziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16469182A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziUITests" */;
+			buildPhases = (
+				E16469042A260C3200ECC544 /* Sources */,
+				E16469052A260C3200ECC544 /* Frameworks */,
+				E16469062A260C3200ECC544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E164690A2A260C3200ECC544 /* PBXTargetDependency */,
+			);
+			name = MoazziUITests;
+			productName = MoazziUITests;
+			productReference = E16469082A260C3200ECC544 /* MoazziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16468DD2A260C3100ECC544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E16468E42A260C3100ECC544 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E16468FD2A260C3200ECC544 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E16468E42A260C3100ECC544;
+					};
+					E16469072A260C3200ECC544 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E16468E42A260C3100ECC544;
+					};
+				};
+			};
+			buildConfigurationList = E16468E02A260C3100ECC544 /* Build configuration list for PBXProject "Moazzi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16468DC2A260C3100ECC544;
+			productRefGroup = E16468E62A260C3100ECC544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16468E42A260C3100ECC544 /* Moazzi */,
+				E16468FD2A260C3200ECC544 /* MoazziTests */,
+				E16469072A260C3200ECC544 /* MoazziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16468E32A260C3100ECC544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16469432A26203900ECC544 /* Pretendard-Light.ttf in Resources */,
+				E164693D2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */,
+				E164693A2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */,
+				E16469372A26203900ECC544 /* Pretendard-Black.ttf in Resources */,
+				E16468F82A260C3200ECC544 /* LaunchScreen.storyboard in Resources */,
+				E16469312A26203900ECC544 /* Pretendard-Medium.ttf in Resources */,
+				E16468F52A260C3200ECC544 /* Assets.xcassets in Resources */,
+				E16469402A26203900ECC544 /* Pretendard-Thin.ttf in Resources */,
+				E16469342A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */,
+				E164692E2A26203900ECC544 /* Pretendard-Regular.ttf in Resources */,
+				E16469462A26203900ECC544 /* Pretendard-Bold.ttf in Resources */,
+				E16468F02A260C3100ECC544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16468FC2A260C3200ECC544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16469352A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */,
+				E16469322A26203900ECC544 /* Pretendard-Medium.ttf in Resources */,
+				E164693B2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */,
+				E164693E2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */,
+				E16469472A26203900ECC544 /* Pretendard-Bold.ttf in Resources */,
+				E164692F2A26203900ECC544 /* Pretendard-Regular.ttf in Resources */,
+				E16469382A26203900ECC544 /* Pretendard-Black.ttf in Resources */,
+				E16469442A26203900ECC544 /* Pretendard-Light.ttf in Resources */,
+				E16469412A26203900ECC544 /* Pretendard-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16469062A260C3200ECC544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16469362A26203900ECC544 /* Pretendard-ExtraLight.ttf in Resources */,
+				E16469332A26203900ECC544 /* Pretendard-Medium.ttf in Resources */,
+				E164693C2A26203900ECC544 /* Pretendard-SemiBold.ttf in Resources */,
+				E164693F2A26203900ECC544 /* Pretendard-ExtraBold.ttf in Resources */,
+				E16469482A26203900ECC544 /* Pretendard-Bold.ttf in Resources */,
+				E16469302A26203900ECC544 /* Pretendard-Regular.ttf in Resources */,
+				E16469392A26203900ECC544 /* Pretendard-Black.ttf in Resources */,
+				E16469452A26203900ECC544 /* Pretendard-Light.ttf in Resources */,
+				E16469422A26203900ECC544 /* Pretendard-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16468E12A260C3100ECC544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16468ED2A260C3100ECC544 /* OnboardViewController.swift in Sources */,
+				E16468F32A260C3100ECC544 /* Moazzi.xcdatamodeld in Sources */,
+				E16469232A261D2D00ECC544 /* UIFont.swift in Sources */,
+				E1DE27F82A26D1D900EFEE5A /* UIView.swift in Sources */,
+				E16468E92A260C3100ECC544 /* AppDelegate.swift in Sources */,
+				E16468EB2A260C3100ECC544 /* SceneDelegate.swift in Sources */,
+				E164691C2A26167A00ECC544 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16468FA2A260C3200ECC544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16469032A260C3200ECC544 /* MoazziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16469042A260C3200ECC544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E164690F2A260C3200ECC544 /* MoazziUITestsLaunchTests.swift in Sources */,
+				E164690D2A260C3200ECC544 /* MoazziUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16469002A260C3200ECC544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16468E42A260C3100ECC544 /* Moazzi */;
+			targetProxy = E16468FF2A260C3200ECC544 /* PBXContainerItemProxy */;
+		};
+		E164690A2A260C3200ECC544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16468E42A260C3100ECC544 /* Moazzi */;
+			targetProxy = E16469092A260C3200ECC544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16468EE2A260C3100ECC544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16468EF2A260C3100ECC544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16468F62A260C3200ECC544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16468F72A260C3200ECC544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16469102A260C3200ECC544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E16469112A260C3200ECC544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16469132A260C3200ECC544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moazzi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.Moazzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E16469142A260C3200ECC544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moazzi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.Moazzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E16469162A260C3200ECC544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.MoazziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moazzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moazzi";
+			};
+			name = Debug;
+		};
+		E16469172A260C3200ECC544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.MoazziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moazzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moazzi";
+			};
+			name = Release;
+		};
+		E16469192A260C3200ECC544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.MoazziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moazzi;
+			};
+			name = Debug;
+		};
+		E164691A2A260C3200ECC544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KZ5C4UW39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jy.MoazziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moazzi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16468E02A260C3100ECC544 /* Build configuration list for PBXProject "Moazzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16469102A260C3200ECC544 /* Debug */,
+				E16469112A260C3200ECC544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16469122A260C3200ECC544 /* Build configuration list for PBXNativeTarget "Moazzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16469132A260C3200ECC544 /* Debug */,
+				E16469142A260C3200ECC544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16469152A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16469162A260C3200ECC544 /* Debug */,
+				E16469172A260C3200ECC544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16469182A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16469192A260C3200ECC544 /* Debug */,
+				E164691A2A260C3200ECC544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E16468F12A260C3100ECC544 /* Moazzi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E16468F22A260C3100ECC544 /* Moazzi.xcdatamodel */,
+			);
+			currentVersion = E16468F22A260C3100ECC544 /* Moazzi.xcdatamodel */;
+			path = Moazzi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E16468DD2A260C3100ECC544 /* Project object */;
+}
