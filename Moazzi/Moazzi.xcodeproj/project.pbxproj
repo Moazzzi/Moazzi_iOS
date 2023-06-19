@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37723ECE1D95685ABF7AE952 /* Pods_MoazziTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E670281E4F58F89C05CBFFA /* Pods_MoazziTests.framework */; };
+		501D68DD8909E0829F9DC225 /* Pods_Moazzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29899E36BBB84CEC9217DEC4 /* Pods_Moazzi.framework */; };
+		8D50B3250A9AEE093CE613E6 /* Pods_Moazzi_MoazziUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F42E02FC91D749518CDA7 /* Pods_Moazzi_MoazziUITests.framework */; };
 		E16468E92A260C3100ECC544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468E82A260C3100ECC544 /* AppDelegate.swift */; };
 		E16468EB2A260C3100ECC544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468EA2A260C3100ECC544 /* SceneDelegate.swift */; };
-		E16468ED2A260C3100ECC544 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468EC2A260C3100ECC544 /* OnboardViewController.swift */; };
+		E16468ED2A260C3100ECC544 /* OnboardViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16468EC2A260C3100ECC544 /* OnboardViewController1.swift */; };
 		E16468F02A260C3100ECC544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16468EE2A260C3100ECC544 /* Main.storyboard */; };
 		E16468F32A260C3100ECC544 /* Moazzi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16468F12A260C3100ECC544 /* Moazzi.xcdatamodeld */; };
 		E16468F52A260C3200ECC544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16468F42A260C3200ECC544 /* Assets.xcassets */; };
@@ -46,6 +49,7 @@
 		E16469462A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
 		E16469472A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
 		E16469482A26203900ECC544 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */; };
+		E1B214292A3FCF070073C409 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B214282A3FCF070073C409 /* LoginViewController.swift */; };
 		E1DE27F82A26D1D900EFEE5A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE27F72A26D1D900EFEE5A /* UIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,10 +71,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29899E36BBB84CEC9217DEC4 /* Pods_Moazzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moazzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E670281E4F58F89C05CBFFA /* Pods_MoazziTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoazziTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31012E08547A1C05C9A261F0 /* Pods-MoazziTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoazziTests.release.xcconfig"; path = "Target Support Files/Pods-MoazziTests/Pods-MoazziTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C34928CE34CA1CD6B95DDAF /* Pods-Moazzi-MoazziUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moazzi-MoazziUITests.release.xcconfig"; path = "Target Support Files/Pods-Moazzi-MoazziUITests/Pods-Moazzi-MoazziUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61D07A5F6BCB0AD8028700B3 /* Pods-Moazzi-MoazziUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moazzi-MoazziUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moazzi-MoazziUITests/Pods-Moazzi-MoazziUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF79C788573BAA385C4BE78 /* Pods-Moazzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moazzi.debug.xcconfig"; path = "Target Support Files/Pods-Moazzi/Pods-Moazzi.debug.xcconfig"; sourceTree = "<group>"; };
+		8303AE34857F8F24D9A7F92A /* Pods-MoazziTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoazziTests.debug.xcconfig"; path = "Target Support Files/Pods-MoazziTests/Pods-MoazziTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E16468E52A260C3100ECC544 /* Moazzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moazzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16468E82A260C3100ECC544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16468EA2A260C3100ECC544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E16468EC2A260C3100ECC544 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		E16468EC2A260C3100ECC544 /* OnboardViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController1.swift; sourceTree = "<group>"; };
 		E16468EF2A260C3100ECC544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16468F22A260C3100ECC544 /* Moazzi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moazzi.xcdatamodel; sourceTree = "<group>"; };
 		E16468F42A260C3200ECC544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +103,11 @@
 		E164692B2A26203900ECC544 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
 		E164692C2A26203900ECC544 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
 		E164692D2A26203900ECC544 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		E1B214282A3FCF070073C409 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E1B2142A2A3FD1DC0073C409 /* Moazzi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moazzi.entitlements; sourceTree = "<group>"; };
 		E1DE27F72A26D1D900EFEE5A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E7C5FE63B03DC0EA0B968E69 /* Pods-Moazzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moazzi.release.xcconfig"; path = "Target Support Files/Pods-Moazzi/Pods-Moazzi.release.xcconfig"; sourceTree = "<group>"; };
+		EC5F42E02FC91D749518CDA7 /* Pods_Moazzi_MoazziUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moazzi_MoazziUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501D68DD8909E0829F9DC225 /* Pods_Moazzi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37723ECE1D95685ABF7AE952 /* Pods_MoazziTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,12 +131,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D50B3250A9AEE093CE613E6 /* Pods_Moazzi_MoazziUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		925EEDB3E368F5D72979F829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29899E36BBB84CEC9217DEC4 /* Pods_Moazzi.framework */,
+				EC5F42E02FC91D749518CDA7 /* Pods_Moazzi_MoazziUITests.framework */,
+				2E670281E4F58F89C05CBFFA /* Pods_MoazziTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E16468DC2A260C3100ECC544 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +155,8 @@
 				E16469012A260C3200ECC544 /* MoazziTests */,
 				E164690B2A260C3200ECC544 /* MoazziUITests */,
 				E16468E62A260C3100ECC544 /* Products */,
+				E647E5BB11B7585CF46DB16B /* Pods */,
+				925EEDB3E368F5D72979F829 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,18 +173,18 @@
 		E16468E72A260C3100ECC544 /* Moazzi */ = {
 			isa = PBXGroup;
 			children = (
+				E1B2142A2A3FD1DC0073C409 /* Moazzi.entitlements */,
 				E1DE27F62A26D1D000EFEE5A /* Extension */,
 				E16469242A26200900ECC544 /* Font */,
 				E16468E82A260C3100ECC544 /* AppDelegate.swift */,
 				E16468EA2A260C3100ECC544 /* SceneDelegate.swift */,
-				E16468EC2A260C3100ECC544 /* OnboardViewController.swift */,
+				E16468EC2A260C3100ECC544 /* OnboardViewController1.swift */,
+				E1B214282A3FCF070073C409 /* LoginViewController.swift */,
 				E16468EE2A260C3100ECC544 /* Main.storyboard */,
 				E16468F42A260C3200ECC544 /* Assets.xcassets */,
 				E16468F62A260C3200ECC544 /* LaunchScreen.storyboard */,
 				E16468F92A260C3200ECC544 /* Info.plist */,
 				E16468F12A260C3100ECC544 /* Moazzi.xcdatamodeld */,
-				E164691B2A26167A00ECC544 /* UIColor.swift */,
-				E16469222A261D2D00ECC544 /* UIFont.swift */,
 			);
 			path = Moazzi;
 			sourceTree = "<group>";
@@ -203,9 +233,24 @@
 		E1DE27F62A26D1D000EFEE5A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E164691B2A26167A00ECC544 /* UIColor.swift */,
+				E16469222A261D2D00ECC544 /* UIFont.swift */,
 				E1DE27F72A26D1D900EFEE5A /* UIView.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E647E5BB11B7585CF46DB16B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF79C788573BAA385C4BE78 /* Pods-Moazzi.debug.xcconfig */,
+				E7C5FE63B03DC0EA0B968E69 /* Pods-Moazzi.release.xcconfig */,
+				61D07A5F6BCB0AD8028700B3 /* Pods-Moazzi-MoazziUITests.debug.xcconfig */,
+				3C34928CE34CA1CD6B95DDAF /* Pods-Moazzi-MoazziUITests.release.xcconfig */,
+				8303AE34857F8F24D9A7F92A /* Pods-MoazziTests.debug.xcconfig */,
+				31012E08547A1C05C9A261F0 /* Pods-MoazziTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16469122A260C3200ECC544 /* Build configuration list for PBXNativeTarget "Moazzi" */;
 			buildPhases = (
+				3B8CF37527BB474E7A70B1F7 /* [CP] Check Pods Manifest.lock */,
 				E16468E12A260C3100ECC544 /* Sources */,
 				E16468E22A260C3100ECC544 /* Frameworks */,
 				E16468E32A260C3100ECC544 /* Resources */,
+				29EC74191FE69589054ABE8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16469152A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziTests" */;
 			buildPhases = (
+				15DD406AB788F0549FA25643 /* [CP] Check Pods Manifest.lock */,
 				E16468FA2A260C3200ECC544 /* Sources */,
 				E16468FB2A260C3200ECC544 /* Frameworks */,
 				E16468FC2A260C3200ECC544 /* Resources */,
@@ -250,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16469182A260C3200ECC544 /* Build configuration list for PBXNativeTarget "MoazziUITests" */;
 			buildPhases = (
+				B11D4079C5F921009DED6809 /* [CP] Check Pods Manifest.lock */,
 				E16469042A260C3200ECC544 /* Sources */,
 				E16469052A260C3200ECC544 /* Frameworks */,
 				E16469062A260C3200ECC544 /* Resources */,
+				9AF50743637D166FE098298D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,15 +411,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15DD406AB788F0549FA25643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoazziTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29EC74191FE69589054ABE8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moazzi/Pods-Moazzi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moazzi/Pods-Moazzi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moazzi/Pods-Moazzi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8CF37527BB474E7A70B1F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moazzi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF50743637D166FE098298D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moazzi-MoazziUITests/Pods-Moazzi-MoazziUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moazzi-MoazziUITests/Pods-Moazzi-MoazziUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moazzi-MoazziUITests/Pods-Moazzi-MoazziUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11D4079C5F921009DED6809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moazzi-MoazziUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E16468E12A260C3100ECC544 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16468ED2A260C3100ECC544 /* OnboardViewController.swift in Sources */,
+				E16468ED2A260C3100ECC544 /* OnboardViewController1.swift in Sources */,
 				E16468F32A260C3100ECC544 /* Moazzi.xcdatamodeld in Sources */,
 				E16469232A261D2D00ECC544 /* UIFont.swift in Sources */,
 				E1DE27F82A26D1D900EFEE5A /* UIView.swift in Sources */,
+				E1B214292A3FCF070073C409 /* LoginViewController.swift in Sources */,
 				E16468E92A260C3100ECC544 /* AppDelegate.swift in Sources */,
 				E16468EB2A260C3100ECC544 /* SceneDelegate.swift in Sources */,
 				E164691C2A26167A00ECC544 /* UIColor.swift in Sources */,
@@ -544,9 +698,12 @@
 		};
 		E16469132A260C3200ECC544 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF79C788573BAA385C4BE78 /* Pods-Moazzi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Moazzi/Moazzi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5KZ5C4UW39;
@@ -557,14 +714,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jy.Moazzi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.moazzi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,9 +732,12 @@
 		};
 		E16469142A260C3200ECC544 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C5FE63B03DC0EA0B968E69 /* Pods-Moazzi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Moazzi/Moazzi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5KZ5C4UW39;
@@ -586,14 +748,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jy.Moazzi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.moazzi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,6 +766,7 @@
 		};
 		E16469162A260C3200ECC544 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8303AE34857F8F24D9A7F92A /* Pods-MoazziTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -622,6 +787,7 @@
 		};
 		E16469172A260C3200ECC544 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31012E08547A1C05C9A261F0 /* Pods-MoazziTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -642,6 +808,7 @@
 		};
 		E16469192A260C3200ECC544 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D07A5F6BCB0AD8028700B3 /* Pods-Moazzi-MoazziUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -660,6 +827,7 @@
 		};
 		E164691A2A260C3200ECC544 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C34928CE34CA1CD6B95DDAF /* Pods-Moazzi-MoazziUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
